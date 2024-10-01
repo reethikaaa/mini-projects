@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooden Desks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>DESKS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wd1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Sherwood Knee-Hole Desk</h2>
+                <p class="product-description"> Liv’s Sherwood Collection evokes the rustic contemporary country home with its unique, authentic and handmade furniture pieces. Each element is individually crafted with traditional techniques in England from solid rough sawn Canadian pine wood, which grows slowly and therefore stronger; ensuring a solid wood without the use of veneer.</p>
+                <p class="product-price">2,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wd2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Macie Wood Desk</h2>
+                <p class="product-description"> Macie Wood Desk is a perfect addition to any home office or kids room for homework space. This desk features 3 pull out drawers and a pencil door to keep desk space clutter free.</p>
+                <p class="product-price">2,500/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wd3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Solid Wood Rustic Desk</h2>
+                <p class="product-description"> Crafted entirely from high-quality wood, our Marina desk offers a sturdy and durable workspace with a timeless appeal, providing a reliable solution for your office area. Whether it's a modern or traditional setting, this desk adds warmth and character to any space while offering a dependable surface for work or study.</p>
+                <p class="product-price">3,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wd4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Nordic Cherry Wood Office Desk</h2>
+                <p class="product-description"> Made from the best handpicked quality cherry wood, it can serve as a computer or writing desk. It also has two drawers that provide ample storage space for your stationeries, or office supplies.</p>
+                <p class="product-price">2,999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wd5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Yuki Desk</h2>
+                <p class="product-description"> A simple, smooth curve makes for a sleek and contemporary desk. Made from solid Walnut, this office desk is perfect for complementing your existing space whilst making a statement. With a perfect companion in the Yuki Drawers, made to fit under the desk perfectly, give your space a modern twist.</p>
+                <p class="product-price">2,550/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

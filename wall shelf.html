@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Wall Shelf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>WALL SHELF'S</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/ws1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Wooden Medicine Cabinet</h2>
+                <p class="product-description">A cabinet is a piece of furniture that has doors and drawers and is often used for storage, like a kitchen cabinet that holds your drinking glasses and plates. Cabinets store things, like a bathroom cabinet that holds items like toothbrushes and soap.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/ws2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Woven Wall Shelf</h2>
+                <p class="product-description">Structured storage meets laid-back style in the Woven Wall Shelf. This hand-woven shelf of bangkuan and rattan delivers abundant natural texture, ideal for adding warmth to a bathroom or living space.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/ws3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Belman Arched Wave Shelf</h2>
+                <p class="product-description">Strike the balance of function and beauty with the Belmar Arched Woven Wall Shelf. This wall shelf is backed with natural woven texture.It is raised off the floor and often anchored to a wall, supported on its shorter length sides by brackets, or otherwise anchored to cabinetry by brackets, dowels, screws, or nails.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/ws4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Farmhouse Kitchen Cabinet</h2>
+                <p class="product-description">More relaxed and informal than some other styles of kitchen, a farmhouse kitchen is simple, practical and well-crafted, with plenty of natural materials and traditional features – typically including lots of warm wood, painted cabinets, freestanding furniture and appliances, an Aga or range oven and open shelving</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/ws5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Diy Home Decor</h2>
+                <p class="product-description"> A well-decorated home can have a positive impact on your mood and well-being. Colors, lighting, and decor choices can influence your emotional state and create a more pleasant atmosphere. Creating a Sense of Belonging: Decor can help create a sense of belonging and attachment to your home.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/ws6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Rustic wooden bookcase</h2>
+                <p class="product-description">ustic style bookcases are quite popular these days highlighting knots and blemishes that bring out the natural character of the wood. These are our best selling rustic bookshelf styles and sizes, but more standard sizes, styles, woods and colors are available in our store.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

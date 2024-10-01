@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Swings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>SWINGS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sw1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Double Boho Wooden Swing</h2>
+                <p class="product-description"> This charming double wooden swing features a boho design with intricate macrame details, perfect for adding a touch of rustic elegance to your garden or porch. Made with sturdy wood, it can comfortably seat two people and is ideal for relaxing outdoors.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sw2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Hammock Swing Chair</h2>
+                <p class="product-description">Combining the comfort of a hammock with the functionality of a chair, this hammock swing chair offers a cozy spot to lounge and unwind. Its woven design and durable construction make it suitable for both indoor and outdoor use, providing a perfect retreat.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sw3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Gray Saddle Swing</h2>
+                <p class="product-description">The gray saddle swing boasts a sleek and modern look, blending seamlessly with contemporary decor. Its saddle-shaped seat offers ergonomic support, making it a comfortable and stylish addition to your patio or living room.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sw4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Indoor Swing for Kids</h2>
+                <p class="product-description">Designed to bring joy and playfulness to any indoor space, this kids' swing is safe and fun. Made with soft, durable materials, it can be easily installed in a playroom or bedroom, providing endless entertainment for children.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sw5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Toddler Swing</h2>
+                <p class="product-description"> This toddler swing is crafted with safety and comfort in mind, featuring a secure harness and supportive seat. Perfect for both indoor and outdoor use, it allows toddlers to enjoy the thrill of swinging while ensuring peace of mind for parents.
+
+                </p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sw6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Baby Cradle</h2>
+                <p class="product-description">A baby cradle is a gentle and soothing sleeping solution for infants. With its gentle rocking motion, it helps lull babies to sleep, offering a cozy and secure environment. Many models come with breathable mesh sides and a sturdy frame for added safety. </p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

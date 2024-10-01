@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>Ethnic wear</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Sherwani kurta set</h2>
+                <p class="product-description">A sherwani kurta set is a traditional Indian outfit for men, often worn at weddings and formal events. The set includes a long, coat-like sherwani paired with a kurta and churidar or pajama. It is typically made from rich fabrics like silk or brocade and adorned with intricate embroidery, reflecting elegance and grandeur.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Bloom ethnic set</h2>
+                <p class="product-description">The bloom ethnic set is a vibrant and stylish ensemble often featuring floral motifs and traditional designs. This set can include various items like kurtas, skirts, and dupattas, designed to celebrate ethnic fashion with a modern twist. It is perfect for festive occasions and cultural events.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Floral graphic prints</h2>
+                <p class="product-description"> Floral graphic prints in textiles are designs that feature bold and colorful flower patterns. These prints can be found on a variety of garments, including sarees, dresses, and blouses, adding a touch of freshness and vitality. They are popular for their timeless appeal and versatility in fashion.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Handloom banaras saree</h2>
+                <p class="product-description"> A handloom Banaras saree is a traditional Indian saree made in Varanasi, known for its rich, intricate weaving and luxurious fabrics like silk. These sarees often feature elaborate designs, including floral and paisley motifs, and are adorned with gold or silver zari work. They are cherished for their craftsmanship and cultural significance.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Wine Georgette saree</h2>
+                <p class="product-description">A wine Georgette saree is made from lightweight, sheer Georgette fabric in a deep wine color. This saree drapes elegantly, offering a sophisticated and modern look. It often features subtle embellishments or prints, making it suitable for both casual and formal occasions.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Soft silk crush</h2>
+                <p class="product-description">Soft silk crush refers to silk fabric with a deliberately wrinkled or crushed texture. This unique finish adds a tactile and visual interest to garments like sarees, blouses, and dresses. The softness and sheen of silk combined with the crushed effect create a blend of elegance and contemporary style.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+                </div>
+            </section>
+            <section class="product">
+                <div class="product-image">
+                    <img src="assets/t7.jpg" alt="Product Image">
+                </div>
+                <div class="product-details">
+                    <h2>Kerala kids frock</h2>
+                    <p class="product-description"> Kerala kids frock is a traditional dress for young girls, often made from lightweight cotton or silk. These frocks feature simple, elegant designs with elements like gold borders or embroidered motifs, reflecting the cultural heritage of Kerala. They are comfortable and perfect for festive occasions.</p>
+                    <p class="product-price">549/-</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart">Buy Now</button>
+                </div>
+            </section>
+            <section class="product">
+                <div class="product-image">
+                    <img src="assets/t8.jpg" alt="Product Image">
+                </div>
+                <div class="product-details">
+                    <h2>Kurta pyjama</h2>
+                    <p class="product-description"> Kurta pyjama is a classic Indian outfit for men, comprising a long tunic (kurta) and loose-fitting trousers (pyjama). This ensemble is versatile, comfortable, and suitable for both casual and formal wear. It is often made from cotton, silk, or linen and can be plain or adorned with embroidery.</p>
+                    <p class="product-price">349/-</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart">Buy Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/t9.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Pure cotton kurta set</h2>
+                <p class="product-description"> A pure cotton kurta set includes a kurta and matching bottoms, made entirely from breathable and soft cotton fabric. This set is ideal for everyday wear and warm climates, offering comfort and style. The kurta can feature simple designs, prints, or light embroidery, making it a versatile wardrobe staple.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>

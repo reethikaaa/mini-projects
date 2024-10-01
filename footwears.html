@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>FOOTWEARS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/foot1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Indian falt sandles</h2>
+                <p class="product-description">Indian flat sandals, often known as "chappals," are traditional footwear characterized by their simplicity and comfort. They are typically made from leather or other natural materials and may feature intricate hand-stitched designs or embellishments. These sandals are versatile, perfect for both casual and ethnic wear, reflecting India's rich cultural heritage.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/foot2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Punjabi juti</h2>
+                <p class="product-description"> Punjabi juti are traditional footwear from the Punjab region, known for their ornate and colorful designs. Made from leather and often embellished with embroidery, beads, or mirrors, these slip-on shoes are both stylish and comfortable. They are a staple in Punjabi attire, adding a touch of elegance to any outfit. </p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/foot3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Embroidery design block heals</h2>
+                <p class="product-description">Embroidery design block heels combine traditional craftsmanship with modern fashion. These shoes feature sturdy block heels and are adorned with intricate embroidery, often showcasing floral or geometric patterns. They offer a blend of comfort and style, suitable for both formal and semi-formal occasions.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/foot4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2> Leather casual loafers</h2>
+                <p class="product-description"> Leather casual loafers are a stylish and versatile footwear choice, perfect for both casual and semi-formal occasions. These slip-on shoes are crafted from high-quality leather, offering durability and comfort. Their timeless design often includes features like moccasin stitching and a comfortable cushioned sole. Ideal for pairing with jeans or chinos, they add a touch of sophistication to any outfit. </p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/foot5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Brown strap thumb slippers </h2>
+                <p class="product-description"> Brown strap thumb slippers, also known as toe loop sandals, are designed for comfort and ease. Featuring a loop that secures the big toe and a strap across the foot, they provide a secure fit. Made from leather or synthetic materials, they are perfect for warm weather and casual outings. Their simple yet stylish design makes them a popular choice for everyday wear. </p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/foot6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2> Woven white sandles</h2>
+                <p class="product-description"> Woven white sandals are a chic and airy footwear option, ideal for summer days. These sandals feature intricate woven designs, often made from materials like leather, fabric, or synthetic fibers. Their open-toe construction and breathable design offer comfort and style. Perfect for casual outings or beach trips, they add a fresh and elegant touch to any summer outfit. </p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

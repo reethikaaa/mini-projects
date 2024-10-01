@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Instruments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>INSTRUMENTS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/i1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Rhythm Musical Instruments</h2>
+                <p class="product-description">a musical instrument that is played to provide a strong beat to a piece of music: He uses his guitar as a supporting rhythm instrument. Members of the choir danced in the aisles with tambourines and other rhythm instruments.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/i2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Oval sistrum rattle</h2>
+                <p class="product-description">The Sistrum is a percussion instrument that originated in Ancient Egypt. It was shaken during religious ceremonies and when coming into the presence of a deity. Presently it is used during village festivals. Each is one of a kind and will vary in size and shape.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/i3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>African balafon 5keys</h2>
+                <p class="product-description">The balafon is a true work of art and an integral member of the idiophone family of tuned percussion instruments which includes the xylophone, marimba, glockenspiel, and vibraphone. The balafon's beautiful sound is produced by striking the tuned keys with two padded sticks.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/i4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Guitar strap</h2>
+                <p class="product-description">the right strap will provide stability, which is essential when playing in standing positions for long durations. It helps distribute the weight of your guitar evenly, allowing for better posture and reducing the risk of musculoskeletal injuries.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/i5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Ocarina</h2>
+                <p class="product-description">An ocarina is a type of wind instrument, or aerophone, in which sound is produced by the vibration of air. Unlike flutes, ocarinas are not tubes but consist of one or more enclosed, rounded chambers. They produce sound when air vibrates within the enclosure and exits through a hle near the mouthpiece.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/i6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>African string instrument</h2>
+                <p class="product-description">The Kora of Africa is a unique aspect to a harp and a notched bridge like a lute or guitar. The first known reference to the Kora from Mungo Park in 1799 in his book "Journey into Africa Districts Interns." He describes as "a large harp with 18 strings."</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Lighting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>LIGHTING</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/l1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Lucent</h2>
+                <p class="product-description">bright, clear, shining; radiant; intense; dazzling; luminous; brilliant; ablaze; glowing with or giving off light.electromagnetic radiation with wavelengths between 380 and 750 nm which is visible to the human eye.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/l2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Emma purdie</h2>
+                <p class="product-description">In 1864, he predicted the existence of electromagnetic waves, the existence of which had not been confirmed before that time, and out of his prediction came the concept of light being a wave, or more specifically, a type of electromagnetic wave.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/l3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Custom Lampshades</h2>
+                <p class="product-description">A good custom made lampshade will last you a generation or more, especially if you dust them and care for them. It is certainly worth spending the money on a made to order lampshade for the perfect fit. The chosen material is attached to a frame.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/l4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Driftwood Table Lamp</h2>
+                <p class="product-description">The Driftwood Table Lamp is crafted from hand-selected pieces of natural driftwood. The iron base in an old iron finish anchors the slender bent limbs in place. A beige linen shade is fastened with a twig-like finial that is a crowning touch. The Driftwood is also available in an orb chandelier.
+                </p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/l5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Woodlog Table Lamp</h2>
+                <p class="product-description">This natural log table lamp is made from natural cedar locally harvested in The Himalayas of India. It looks like a little piece of nature with the contrasting striking red round braided cable which gives it a edge.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/l6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Floorlamp</h2>
+                <p class="product-description">floor lamps in your home is a practical and stylish choice that contributes to better lighting, space efficiency, and overall aesthetic appeal. With their versatility and functionality, floor lamps enhance both the visual and functional aspects of your living spaces.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

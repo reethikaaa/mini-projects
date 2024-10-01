@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>SCULPTURES</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/s1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Sand Sculpture</h2>
+                <p class="product-description">Sand sculptures are temporary art forms created by shaping sand and water, often seen at beaches or sand festivals. Artists use tools and their hands to carve intricate designs, ranging from simple shapes to detailed scenes. These sculptures highlight the transient beauty of art, as they are easily eroded by wind and water.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/s2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Beta Sculpture</h2>
+                <p class="product-description">Beta sculptures are often experimental or prototype pieces created as part of an artist's developmental process. They serve as a stage for testing concepts, materials, and techniques. These sculptures may not be polished final products, but they offer valuable insights and a glimpse into the artists creative journey.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/s3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Ceramic Vase</h2>
+                <p class="product-description"> A ceramic vase is a vessel made from clay and hardened by heat. These vases come in various shapes, sizes, and designs, often featuring glazes or decorative elements. They are used for holding flowers, as functional objects, or as decorative pieces. Ceramic vases are appreciated for their durability and artistic versatility.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/s4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Organic bone form Sculpture</h2>
+                <p class="product-description">Organic bone form sculptures are artworks inspired by the shapes and structures of bones. These sculptures often mimic the fluid lines, curves, and textures found in natural bone, creating a sense of organic beauty. They can be made from various materials, including metal, clay, or resin, and emphasize the connection between art and nature.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/s5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Sandstone garence hand Sculpture</h2>
+                <p class="product-description">A sandstone Garence hand sculpture is a carved piece made from sandstone, featuring the form of a hand. Sandstone, known for its grainy texture and warm tones, lends a natural, earthy quality to the sculpture. These pieces can symbolize various themes, from human connection to the passage of time.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/s6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Katarina wells</h2>
+                <p class="product-description">Katarina Wells is a contemporary artist known for her sculptural works that often explore organic forms and natural textures. Her pieces are characterized by their fluid lines and attention to detail, reflecting a deep connection to the natural world. Wells’ work often combines traditional craftsmanship with modern artistic sensibilities, creating unique and evocative sculptures.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wooden Cabinets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>CABINETS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wc1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Four Door Elm Cabinet</h2>
+                <p class="product-description"> This elm wood cabinet is perfect companion for the modern bohemian or coastal home.It is made from reclaimed elm wood which has been handcrafted into piece with a live in look and feel.</p>
+                <p class="product-price">2,300/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wc2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Large Chamfered Edge Cabinet</h2>
+                <p class="product-description"> A classy cabinet made from solid walnut throughout,set on a step base.The feature chamfered detailing on doors doubles as both a unique feature and cupboard handles.</p>
+                <p class="product-price">2,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wc3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Solid Wood Linen Cabiet</h2>
+                <p class="product-description"> Linen cabinets offer some extra storage space to keep bed linen, towels and table cloths.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wc4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Family Christmas Cabinets</h2>
+                <p class="product-description"> These cabinets are made of cherry and sycamore. The sycamore door panels are of note because they came from trees felled in 2005 to make way for the expansion of the Cleveland Museum of Art. I acquired the wood when it was left at the museum building site for disposal.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wc5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Stiletto Cabinet</h2>
+                <p class="product-description"> One of a kind Ambrosia maple with live edge doors, three live edge shelves and one live edge drawer. Cast solid bronze legs. Doors ball catch close, soft close drawer. Finished with tung oil and beeswax.</p>
+                <p class="product-price">1,999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/wc6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Luna Double Reclaimed Wood Cabinet</h2>
+                <p class="product-description"> Made by bloom home inc.
+                    These old elm timbers show in its most primal, natural form. Made from solid elm wood. The artisanal construction methods highlight the elm woods beautiful grain pattern & knots and fissures from its past life. The most authentic materials are hand selected, and hours of hand-craftsmanship go into each piece, creating each and every beautiful cabinet, no one is exactly alike.</p>
+                <p class="product-price">2,500/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

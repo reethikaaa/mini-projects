@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Kitchen&Dining</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>KITCHEN & DINING</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/kd1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Handmade natural color scalloped</h2>
+                <p class="product-description"> Handmade natural color scalloped pieces add a touch of artisanal beauty to any home, offering unique charm with their delicate, hand-finished edges.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/kd2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Dinig suit</h2>
+                <p class="product-description">A dining suit, often crafted with attention to detail, enhances the dining experience by providing comfort and style, perfect for memorable gatherings.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/kd3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Boho living</h2>
+                <p class="product-description">Boho living embraces eclectic, free-spirited decor, combining vibrant patterns, earthy tones, and a mix of textures for a relaxed and creative ambiance.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/kd4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Somer set</h2>
+                <p class="product-description">Somerset furniture exudes timeless elegance, often inspired by classic designs and crafted with high-quality materials, making it a sophisticated addition to any room.
+
+                </p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/kd5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Kitchen table</h2>
+                <p class="product-description">A kitchen table is the heart of many homes, serving as a central spot for meals, conversations, and daily activities, designed to be both functional and inviting.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

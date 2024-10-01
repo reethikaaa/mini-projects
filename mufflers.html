@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Mufflers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>MUFFLERS & SCARFS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/mf1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Child Muffler</h2>
+                <p class="product-description"> stunning handmade ribbed unisex cream with brown and black fleck scarf.
+                    All scarfs are packed in boxes so lovely to give as a gift.
+                    Suitable for boy or girl.</p>
+                <p class="product-price">200/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/mf2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Bright Red Scarf</h2>
+                <p class="product-description"> crocheted this New, bright Valentine Red Scarf, the perfect cold weather muffler.
+                    I handmade this oversize scarf using a loose hand knit crochet stitch. Made in the USA.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/mf3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Texture Scarf</h2>
+                <p class="product-description"> This scarf is knit flat from one end to the other, using two different, yet simple texture patterns. Two stitches at each side form an I-cord edge as you go. Slip all stitches purlwise.</p>
+                <p class="product-price">599/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/mf4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Lovely Ribbed Scarf</h2>
+                <p class="product-description"> When it came time to name this classic, go-with-anything, go-everywhere, denim to diamonds Lovely Ribbed Scarf, well, lovely seemed to us precisely the word to describe it. It’s attractive without begging for attention, beautiful without being boastful. It’s lovely!</p>
+                <p class="product-price">250/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/mf5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Renzo Man Scarf</h2>
+                <p class="product-description"> The Renzo Man Scarf, crafted from the finest blend of Qiviut, extra fine Merino wool, and Mulberry Silk. Featuring a handsome lattice knit pattern, this stylish men’s scarf provides exceptional warmth and sophistication. It is the perfect accessory for any discerning gentleman, measuring 180 cm in length and 26 cm in width. Elevate your wardrobe with this high-quality, exquisitely designed scarf, and experience comfort and style.</p>
+                <p class="product-price">550/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/mf6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Ollie Graduated Scarf</h2>
+                <p class="product-description"> Wrap up warm this season with our Ollie scarf. Made from a supersoft and warm fabric, this is the perfect accessory for when the temperature drops.</p>
+                <p class="product-price">300/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

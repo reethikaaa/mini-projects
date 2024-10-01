@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>SOFAS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sf1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Tiverton Sofa</h2>
+                <p class="product-description"> handmade sofa that will bring elegance and style to any room. It’s rustic, wooden frame has beautiful curves and side-slat detailing, and is available in a range of woods and finishes, including oak, maple, cherry, and barn wood.</p>
+                <p class="product-price">10,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sf2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Woody Sofa White Ash-Fog</h2>
+                <p class="product-description"> A relaxed and inviting design with a deep profile and gorgeous solid ash wood frame. Remove back cushions and your sofa is transformed to a twin bed</p>
+                <p class="product-price">9,999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sf3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Suelo Modern Wood Sofa</h2>
+                <p class="product-description"> This Suelo modern wood sofa is beautifully constructed from solid wood in Ohio, USA. The sofa's silhouette is simple, modern, and sleek with comfortable back and seat cushions. This is the perfect sofa for any space, indoor or outdoor.</p>
+                <p class="product-price">15,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sf4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Hand Carved Daybed Sofa</h2>
+                <p class="product-description"> The handmade, handcrafted Chest is a stunning piece of furniture that combines exquisite craftsmanship with the natural beauty of Wood. Solid wood is highly regarded for its rich grain patterns and durability.</p>
+                <p class="product-price">9,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/sf5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>2-Seater Wooden Sofa</h2>
+                <p class="product-description"> This luxurious 2-seater sofa will be a cosy place for chatting, reading, watching TV or just relaxing. It will create a slightly retro and warm atmosphere in your living room. The sofa is made of solid acacia wood that has been given a honey finish by polishing, painting and lacquering to provide a refined look. It is entirely handmade, and the beautiful wood grains make every piece of furniture unique.</p>
+                <p class="product-price">5,000/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

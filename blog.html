@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(assets/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #d1c2a7;
+    color: #3c2c21;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.container {
+    margin-top: 200px; /* Adjust this value based on header height */
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+}
+        
+        .sidebar {
+            width: 35%;
+            background-color:transparent;
+            padding: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+            margin-right: 30px;
+        }
+        
+        .sidebar h2 {
+            margin-top: 0;
+        }
+        
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        
+        .sidebar ul li img {
+            width: 120px;
+            height: 120px;
+            margin-right: 10px;
+        }
+        
+        .sidebar ul li span {
+            font-weight: bold;
+        }
+        
+        .sidebar ul li small {
+            display: block;
+            color: #777;
+        }
+        
+        .blog-posts {
+            width: 75%;
+        }
+        
+        .blog-posts article {
+            background-color: transparent;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 -2px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-posts article img {
+            width: 30%;
+            height: auto;
+        }
+        
+        .blog-posts article h2 {
+            margin-top: 0;
+        }
+        
+        .blog-posts article small {
+            color: #777;
+        }
+        
+        .blog-posts article a {
+            text-decoration: none;
+            color: #3c2c21;
+            font-weight: bold;
+        }
+        
+        .extra {
+            display: none;
+        }
+        
+        p {
+            display: inline;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        label {
+            position: relative;
+            padding: 1em;
+            background-color: #3c2c21;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        
+        .toggle-label::before {
+            content: "Read More";
+        }
+        
+        input[type="checkbox"]:checked + .toggle-label::before {
+            content: "Read Less";
+        }
+        
+        input[type="checkbox"]:checked ~ .extra {
+            display: inline;
+        }
+        
+        input[type="checkbox"]:checked ~ .dots {
+            display: none;
+        }
+        .extra:has(~ input[type="checkbox"]:checked){
+    display:inline;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family:lucid sans">NAVATÀ</h1>
+        <h2 style="font-family:arial">MY BLOG </h2>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>POPULAR POSTS</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="assets/img11.jpg" alt="Brassware Budithi">
+                        <span>A Defining Art Of Brassware</span>
+                        <small>30-October-2021</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img10.jpg" alt="Red Sanders">
+                        <span>Exclusive Skill Of Andhra's Artisans</span>
+                        <small>26-August-2021</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img12.jpg" alt="Lamp Shade">
+                        <span>Exclusive Pieces, Enhanced By Leather Painting</span>
+                        <small>21-August-2021</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img9.jpg" alt="Wooden Art">
+                        <span>Exuberance Of Wooden Art</span>
+                        <small>16-August-2021</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img8.jpg" alt="Harham Carpets">
+                        <span>The Making Of Hand-Knotted Harham Carpets</span>
+                        <small>10-June-2021</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img16.jpg" alt="Applique & Embroidery">
+                        <span>Brilliant Mastercraft of Andhra's Astisans</span>
+                        <small>10-June-2021</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img15.jpg" alt="Lacquer Ware Toys">
+                        <span>Toy-Making Using Lac & Wood!</span>
+                        <small>26-may-2022</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img14.jpg" alt="Stone Cravings">
+                        <span>exclusive Stone Cravings Of Andhra</span>
+                        <small>15-january-2023</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/img13.jpg" alt="Wooden Cutlery">
+                        <span>Woodcraft By Skilled Craftsmen By Udayagiri</span>
+                        <small>30-march-2024</small>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main class="blog-posts">
+            
+            <article>
+                <img src="assets/img11.jpg" alt="Brassware Budithi">
+                <h2>A Defining Art Of Brassware</h2>
+                <small>30-October-2021</small><br>
+                <p class="original">Budithi village in Srikakulam district of Andhra Pradesh has earned</p>
+                <span class="dots"></span>
+                <p class="extra"> great fame for its splendid brassware items.
+                     The local community of Budithi is engaged in creating really stunning Brassware, made using a special technique from alloys. The shapes of the Brassware made in Budithi village vary greatly and they range from elegantly modern items to very traditional and charming brassware.
+                    Brassware is one such exclusive art, which is quite popular among handicrafts due to its great aesthetic value and unique attraction. This art form practiced here is also reflected in the traditional utensils used mainly for cooking and other contemporary artefacts such as planters and pots.                    
+                    The articles are all made of brass. The objects feature many geometrical shapes with curves as well as straight lines forming simple yet striking presentations that are quite attractive. Some artists also make use of the floral patterns, for an extra element of decoration to the attractive artefacts. 
+                    The artisans are highly skilled in creating the right mix of alloys. The art of making brassware objects has been practiced here for several decades while the antique and also modern styles used in this art is considered outstanding by art enthusiasts.
+                    Budithi Brassware art is characterized by the slender necks, which carries an elegant charm and these exquisitely shaped artifacts are considered brilliant. There are flower pots, utensils, planters and many decoration pieces available in this art form. The artisans using this brassware also create bells for temples, various sized lamps etc. It has been registered as one of the geographical indication handicrafts from the state of Andhra Pradesh, under Geographical Indications of Goods (Registration and Protection) Act, 1999. The items made of Brass are considered ideal by Hindus for spiritual and divine purposes. 
+                    These are also created for utility purposes and also given as souvenirs while using them to decorate the interiors of coffee shops, art galleries etc., has become quite trendy these days.</p>
+                </br> <br>
+                <input type="checkbox" id="toggle1" />
+                <label for="toggle1" class="toggle-label"></label></br>
+            </article>
+            <article>
+                <img src="assets/img10.jpg" alt="Red Sanders">
+                <h2>Exclusive Skill Of Andhra's Artisans</h2>
+                <small>26-August-2021</small><br>
+                <p class="original">Red Sandal wood is considered a rare form of wood because this species</p>
+                <span class="dots"></span>
+                <p class="extra"> of tree grows very slowly, sometimes taking decades to get the right thickness. Wooden handicrafts are always considered a wonderful element of decoration for living spaces, offices and home interiors.
+
+                    The properties of red sanders like deep red-color, sturdiness and the ability to resist harsh temperatures and humidity makes this wood, ideal for making handicrafts. Exotic handicrafts are quite popular for its antiquity, as they are derived from rare wood, and this is something which makes Indian handicrafts quite special. The Handicraft items created through Red sanders enjoy great demand in the market. The antiquity of the material, including the traditional designs which are specially engraved on them makes it more popular.
+                    
+                    Red Sandalwood is used to create a very unique collection of idols, handicrafts, and other artefacts. This endangered species grows only in certain forest pockets of South India, especially Chittoor and Nellore districts of Andhra Pradesh. Creating stunning artefacts from Red Sanders involves mastery by skilled craftsmen with the right expertise in creating most priceless artefacts from this exotic wood. This wood is also used for making furniture, musical instruments, and sculptures.
+                    Red Sandalwood is used to create an exciting range of wooden decorative items created by highly skilled workers with great experience in the domain of handicrafts. Many quality artefacts are made, leveraging the useful properties of Red Sandalwood. Wooden box, wooden crafts, handcrafted jewelry boxes, wooden gift boxes, wooden trays, articles, and red sandalwood beads, divine idols, pooja items etc., are created with red sanders, reflecting a royal appearance.
+                    Red Sandalwood handicrafts are well-known for their special appearance and also elegance. Various handicrafts created using Red Sandalwood is quite popular among art collectors from different parts of the world. The uniqueness of products like those made of Red Sandalwood makes India a well-known handicraft export destination in the world.</p>
+                </br> <br> <input type="checkbox" id="toggle2" />
+                <label for="toggle2" class="toggle-label"></label></br>
+            </article>
+            <article>
+                <img src="assets/img12.jpg" alt="Lamp Shade">
+                <h2>Exclusive Pieces, Enhanced By Leather Painting</h2>
+                <small>21-August-2021</small><br>
+                <p class="original">Art and artefacts evoke a special sense of admiration and creative</p>
+                <span class="dots"></span>
+                <p class="extra"> satisfaction. It is needless to say that many of us desire to buy special artefacts and hand-made items, reflecting our aesthetic sense. In the modern era, this taste translates into demand for such exquisite handicrafts, creating livelihood opportunities for skilled artists and artisans, while fulfilling our desire for special interiors.
+
+                    Leather paintings represent one such special legacy of art work, made in Andhra Pradesh. This form of art is linked to the state’s traditional folk and cultural expression, called Leather puppetry. Decorative items have always made their entry into our homes and living spaces. The artisans of Nimmalakunta in Ananthapur district, Narsaraopet in Guntur district and D.C. Palle in Nellore district create these masterpieces making these places the main centers of leather painting industry in Andhra Pradesh. In Nimmalakunta, artisans’ practice this as a hereditary craft.
+                    
+                    Leather paintings is an offshoot of the Leather puppet as well as lamp shades industry in the state. The same artisans who create Lamp shades also create amazing Leather paintings in colorful designs and patterns.
+                    The colors which are derived from vegetables dyes like brilliant red, green, white, yellow, browns and orange are used by the artisans. After coloring, the painting is dried and their profession inspires the painters to display their skill to create designer objects of attractive shapes and sizes, featuring exquisite leather paintings.
+                    The paintings feature interesting patterns, which are considered quite popular among art collectors and there are certain paintings which involve alternating bands with different colors, making it quite attractive and artistic. The decorative patterns painted by the artisans enhances the attraction of these art works, which are being used widely as decorative and utility items in living spaces and art galleries.
+                    The paintings reflect the creative excellence of artisan community involved in this famous craft and a wide range of designer objects are created, which finds great appeal among art collectors and buyers since leather paintings enhance the overall look of these products.</p>
+                </br><br> <input type="checkbox" id="toggle3" />
+                <label for="toggle3" class="toggle-label"></label></br>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

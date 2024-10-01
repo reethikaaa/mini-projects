@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>BAGS</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/bag1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Shoulder sling handbag</h2>
+                <p class="product-description">A shoulder sling handbag is a versatile accessory, designed to be worn across the body or over the shoulder. These bags come in various sizes and styles, often featuring zippers, pockets, and adjustable straps for convenience. They are perfect for everyday use, offering both functionality and fashion.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/bag2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Embroidery ethnic indian handbag</h2>
+                <p class="product-description"> An embroidery ethnic Indian handbag showcases traditional Indian craftsmanship with detailed embroidery work. These handbags often feature vibrant colors, intricate patterns, and embellishments like beads or mirrors. They are ideal for adding a touch of ethnic charm to any outfit, making them perfect for festivals and special occasions.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/bag3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Large rabri tribal bag</h2>
+                <p class="product-description"> A large Rabari tribal bag is a spacious and colorful bag inspired by the Rabari community's traditional designs. These bags are made from sturdy materials and adorned with vivid embroidery, mirror work, and tassels. They reflect the rich cultural heritage of the Rabari tribe and are perfect for making a bold fashion statement while carrying daily essentials.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/bag4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Beach handbags</h2>
+                <p class="product-description">Beach handbags are designed for stylish functionality, perfect for carrying essentials like towels, sunscreen, and snacks. Made from durable, water-resistant materials, they often feature bright colors and playful patterns. These bags are spacious, lightweight, and easy to clean, making them ideal for seaside adventures.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/bag5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Ethinic travel bags</h2>
+                <p class="product-description">Ethnic travel bags combine practicality with cultural aesthetics, often featuring traditional patterns and motifs from various regions. Made from robust materials like canvas or leather, they offer ample space and compartments for organizing travel essentials. These bags provide a unique way to express cultural appreciation while on the go.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/bag6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Indian cotton shopping tote bag</h2>
+                <p class="product-description"> Indian cotton shopping tote bags are eco-friendly and versatile, perfect for daily errands and shopping trips. Made from high-quality cotton, these bags are lightweight yet durable. They often showcase traditional Indian prints, embroidery, or block prints, reflecting the rich textile heritage of India.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

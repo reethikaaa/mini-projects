@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2d7cd;
+}
+
+header {
+    background: #d1c2a7;
+    color: #3c2c21;
+    padding: 1em 0;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+
+/* Product section styling */
+.product {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background: transparent;
+    border-radius: 8px;
+   
+}
+
+/* Product image styling */
+.product-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.product-image img {
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Product details styling */
+.product-details {
+    flex: 2;
+    padding: 1em;
+}
+
+.product-details h2 {
+    margin-bottom: 0.5em;
+}
+
+.product-description {
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #e60000;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    background: #3c2c21;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image, .product-details {
+        padding: 0.5em;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>NAVATÀ</h1>
+    </header>
+    <main>
+        <h2>POTTERY</h2>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/pot1.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Wabi sabi pottery</h2>
+                <p class="product-description">Wabi-sabi pottery celebrates the beauty in imperfection and the transient nature of life. Originating from Japanese aesthetics, it values simplicity, rusticness, and naturalness. Each piece often features asymmetry, rough textures, and subtle color variations, reflecting a sense of authenticity. The imperfections are seen as an integral part of the object's history and character. This approach fosters a deep appreciation for the fleeting and the ordinary.</p>
+                <p class="product-price">499/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/pot2.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Rustic Splender</h2>
+                <p class="product-description"> Rustic splendor refers to the charm found in natural, unrefined beauty, often seen in handcrafted items. This style embraces rough textures, earthy tones, and a sense of the unpolished. It highlights the raw, genuine aspects of materials and craftsmanship. The allure lies in its authenticity and connection to traditional, rural aesthetics.</p>
+                <p class="product-price">399/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/pot3.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Handbuliding pottery</h2>
+                <p class="product-description">Handbuilding pottery involves crafting clay pieces using hands and simple tools, rather than a wheel. Techniques like pinching, coiling, and slab building are employed to create unique forms. This method allows for great artistic freedom and personal expression. It’s ideal for creating intricate designs and one-of-a-kind pieces.</p>
+                <p class="product-price">699/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/pot4.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Terran clay emphora</h2>
+                <p class="product-description">Terran clay amphora is a type of ancient pottery vessel, typically used for storage or transportation. Made from terracotta clay, these amphorae are characterized by their elongated necks and two handles. They often feature intricate patterns or reliefs, reflecting the artistry of the period. They are valued for their historical significance and durable construction.</p>
+                <p class="product-price">549/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/pot5.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Burnt sienna</h2>
+                <p class="product-description">Burnt sienna is a deep, reddish-brown pigment derived from natural sienna clay that has been heated. This warm, earthy color is used in painting, pottery, and other art forms. Its rich tone adds depth and warmth to artistic compositions, evoking a sense of warmth and grounding.</p>
+                <p class="product-price">349/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+        <section class="product">
+            <div class="product-image">
+                <img src="assets/pot6.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h2>Botanics vase</h2>
+                <p class="product-description">A botanics vase typically features botanical motifs or designs inspired by nature. These vases are often adorned with leaf patterns, floral engravings, or organic shapes. They celebrate the beauty of plant life and are designed to complement floral arrangements or stand alone as decorative pieces.</p>
+                <p class="product-price">999/-</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
